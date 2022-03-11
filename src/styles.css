@@ -1,0 +1,141 @@
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  footer,
+  .section-portafolio,
+  .section-about,
+  .section-contact {
+    padding: 3%;
+  }
+  
+  header {
+    width: 110%;
+    align-items: center;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+  }
+  
+  header,
+  footer,
+  .bg-nav-color {
+    background: #20232a;
+  }
+  
+  .section-main {
+    margin-top: 2%;
+    padding-top: 3%;
+  }
+  
+  #navbarSupportedContent {
+    padding-left: 45%;
+  }
+  
+  #navbar-nav .nav-link__custom {
+    color: #ffffff;
+  }
+  
+  .section-main,
+  .section-about {
+    background: #282c34;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .section-portafolio__text {
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  .section-contact > p {
+    color: #2c3e50;
+  }
+  
+  .form-label,
+  .form-check-label {
+    font-size: 1.5rem;
+  }
+  
+  .form-contact > div > label,
+  #mailHelpe {
+    color: #2c3e50;
+  }
+  
+  footer > div > h3 {
+    color: #999999;
+    text-align: center;
+  }
+  
+  .text-big {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  /* imagen  */
+  .centrador {
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  
+  .imagen {
+    width: 300px;
+  }
+  
+  .navbar-brand {
+    padding-left: 5%;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    #navbarSupportedContent {
+      padding-left: 40%;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    header {
+      left: 1%;
+      width: 110%;
+    }
+    #navbarSupportedContent {
+      padding-left: 0%;
+    }
+    .section-main {
+      margin-top: 8%;
+      padding-top: 3%;
+    }
+    .navbar-toggler {
+      margin-right: 10%;
+    }
+  }
+  
+  @media only screen and (max-width: 390px) {
+    header {
+      left: 3%;
+    }
+    .section-main {
+      margin-top: 15%;
+      padding-top: 5%;
+    }
+    .imagen {
+      width: 200px;
+    }
+  }
+  
